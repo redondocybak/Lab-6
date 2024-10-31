@@ -18,7 +18,7 @@ node2.next = node3
 def print_linked_list(head):
     current = head
     while current:
-        print(current.data, end=" - ")
+        print(current.data, end=" -> ")
         current = current.next
     print("No more nodes")
 
@@ -39,7 +39,7 @@ def print_linked_list_with_count(head):
     current = head
     count = 0
     while current:
-        print(current.data, end=" - ")
+        print(current.data, end=" -> ")
         current = current.next
         count += 1
     print("No more nodes")
